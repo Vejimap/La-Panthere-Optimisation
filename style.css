@@ -761,7 +761,15 @@ h4 {
     font-weight: 900;
     text-decoration: underline!important;
 }
-
+footer ul li {
+    color: #000000;
+}
+footer h4 {
+    color: #000000;
+}
+footer div p {
+    color: #000000;
+}
 .bgc-white {
     background-color: #FFFFFF;
 }
@@ -771,7 +779,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #f89262ef;
 }
 
 .tc-white {
