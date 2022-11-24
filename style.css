@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: #3C3936;
 }
 
 .d-bloc .a-btn:hover,
@@ -150,7 +150,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: #000000;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -645,7 +645,6 @@ h3,
 h4,
 h5,
 h6,
-p,
 label,
 .btn,
 a {
@@ -677,9 +676,14 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
-
+.citationbot {
+    padding-bottom: 25px;
+}
+.citationtop {
+    padding-top: 25px;
+}
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -735,8 +739,8 @@ h4 {
     margin-top: 24px;
 }
 
-.white {
-    color: #FFFFFF!important;
+.black {
+    color: #000000!important;
 }
 
 .portfolio-thumb {
@@ -767,7 +771,7 @@ footer ul li {
 footer h4 {
     color: #000000;
 }
-footer div p {
+.text-color {
     color: #000000;
 }
 .bgc-white {
@@ -783,17 +787,17 @@ footer div p {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #fff!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .ltc-white {
@@ -809,7 +813,7 @@ footer div p {
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #F3976C!important;
 }
 
 .icon-dark-slate-blue {
