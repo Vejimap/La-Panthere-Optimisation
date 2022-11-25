@@ -268,7 +268,7 @@ th {
         page-break-inside: avoid
     }
     img {
-        max-width: 100% !important
+        width: 100% !important
     }
     h2,
     h3,
