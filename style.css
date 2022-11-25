@@ -95,6 +95,7 @@ a:hover {
 .texture-paper::before {
     background: url("img/texture-paper.webp");
     background-size: 280px 280px;
+    opacity: 0.26;
 }
 
 .b-parallax {
@@ -369,7 +370,11 @@ header img {
     left: 75%;
     top: 15px;
 }
-
+.img-responsive {
+    height: 270px;
+    width: 270px;
+    margin: auto;
+}
 
 @media (min-width: 768px) {
     .site-navigation {
@@ -810,7 +815,9 @@ footer h4 {
 .bgc-atomic-tangerine {
     background-color: #f8996c;
 }
-
+.tc-black {
+    color: #000000;
+}
 .tc-white {
     color: #fff!important;
 }
